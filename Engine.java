@@ -59,7 +59,13 @@ public class Engine {
   // Return true if the board is full
   // Return false if not
   public boolean checkTie() {
-    return true;
+    
+	  if(checkWinner == 0){
+	  	return true;
+	  }
+	  else{ 
+		  return false;
+	}
   }
 
   public int checkWinner() {
